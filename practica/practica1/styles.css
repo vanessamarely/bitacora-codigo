@@ -1,0 +1,47 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+header {
+  align-items: center;
+  background: salmon;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin: 0;
+}
+
+aside {
+  border: 1px solid #000;
+  width: 30%;
+}
+
+main {
+  border: 1px solid #000;
+  padding: 2em;
+  width: 70%;
+}
+
+footer {
+  border: 1px solid #000;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.card {
+  background: aliceblue;
+  padding: 1em;
+  text-align: center;
+  width: 50%;
+}
