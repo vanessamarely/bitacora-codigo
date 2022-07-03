@@ -3,9 +3,59 @@
   font-size: 16px;
 }
 
-main {
+body {
+  margin: 0;
+}
+
+header {
+  background-color: salmon;
+  color: white;
+  height: 100px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
   padding: 1em;
 }
-header {
+
+main {
+  display: flex;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 1em;
+  text-align: center;
+}
+
+aside {
+  border-right: 1px solid #ddd;
+  padding: 1em;
+  width: 30%;
+}
+
+aside .list {
+  padding: 0;
+  list-style: none;
+}
+
+.wrapper {
+  padding: 1em;
+  width: 70%;
+}
+
+section {
+  padding: 1em;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+section figure {
   text-align: center;
 }
