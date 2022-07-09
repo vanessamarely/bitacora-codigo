@@ -1,0 +1,40 @@
+@media (max-width: 900px) {
+  .box-medium {
+    display: none;
+  }
+
+  .header,
+  main {
+    padding: 1em;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .main-image .large {
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 900px) and (max-width: 1440px) {
+  .box-medium {
+    display: block;
+  }
+
+  .main-image .large {
+    display: block;
+  }
+
+  .main-image .small {
+    display: none;
+  }
+}
