@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practica 3</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Bitácora de Código</h1>
+    </header>
+    <main class="main">
+      <section class="main__notes-add">
+        <form class="notes-add__form" id="notes-add__form">
+          <div class="notes-add__form__row">
+            <label>
+              Agregar una nota:
+              <textarea
+                name="note"
+                id="notes-add__text"
+                cols="40"
+                rows="5"
+                maxlength="300"
+                class="notes-add__form__box"
+              ></textarea>
+            </label>
+          </div>
+          <div class="notes-add__form__row">
+            <select
+              class="notes-add__form__box"
+              name="note-color"
+              id="notes-add__select"
+            >
+              <option value="">Seleccione el color</option>
+              <option value="tomato">Tomato</option>
+              <option value="pink">Pink</option>
+              <option value="aqua">Aqua</option>
+              <option value="teal">Teal</option>
+            </select>
+          </div>
+          <div class="notes-add__form__row">
+            <button
+              class="notes-add__form__button"
+              id="notes-add__button"
+              type="submit"
+            >
+              Agregar
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="notes-list" id="notes-list"></section>
+      <section class="notes-messages" id="notes-messages">
+        <p class="notes-messages__text">
+          Please add some text and pick a color to create a note.
+        </p>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
